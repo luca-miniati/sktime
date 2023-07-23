@@ -25,3 +25,6 @@ class BaseDeepNetwork(BaseObject, ABC):
         output_layer : a keras layer
         """
         ...
+
+class BaseDeepNetworkPyTorch(ABC):
+    """Abstract base class for deep learning networks using pytorch."""
